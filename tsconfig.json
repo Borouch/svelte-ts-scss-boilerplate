@@ -4,6 +4,8 @@
   "exclude": ["node_modules/*", "public/*"],
   "compilerOptions": {
     "baseUrl": ".",
+    "target": "es2020",
+    "lib": ["dom", "es6", "scripthost", "es2019","es2018","es2020"],
     "paths": {
       "@src/*": ["./src/*"]
     },

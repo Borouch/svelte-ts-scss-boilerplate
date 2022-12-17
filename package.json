@@ -8,13 +8,29 @@
     "build:prod": "cross-env NODE_ENV=production node esbuild.config.js",
     "serve": "live-server ./public"
   },
-  "keywords": ["svelte", "typescript", "esbuild", "starter", "boilerplate"],
+  "keywords": [
+    "svelte",
+    "typescript",
+    "esbuild",
+    "starter",
+    "boilerplate"
+  ],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "svelte": "^3.31.0"
+    "svelte": "^3.31.0",
+    "css-loader": "^5.2.7",
+    "style-loader": "^2.0.0",
+    "postcss-loader": "^4.3.0",
+    "mime-types": "^2.1.35",
+    "@types/mime-types": "^2.1.1"
   },
   "devDependencies": {
+    "sass": "^1.55.0",
+    "node-sass": "^7.0.3",
+    "@types/node": "^16.11.6",
+    "@typescript-eslint/eslint-plugin": "5.29.0",
+    "@typescript-eslint/parser": "5.29.0",
     "@tsconfig/svelte": "^1.0.10",
     "cross-env": "^7.0.3",
     "esbuild": "^0.8.19",
